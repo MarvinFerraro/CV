@@ -1,0 +1,352 @@
+.container,
+.containerNav{
+    width: 1000px;
+    margin: 0 auto;
+}
+body{
+    padding-top: 51px;
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    /*font-family: 'Baskervville', serif;
+    font-family: 'Barlow', sans-serif;*/
+    
+}
+.titleGen{
+    font-family: 'Baskervville', serif;
+    font-size: 2em;
+    margin-top: 0;
+    padding: 50px 0 20px 0;
+}
+.titleCenter{
+    text-align: center;
+}
+.pDefault{
+    font-size: 1.2em;
+    font-family: 'Barlow', sans-serif;
+}
+.h3Default{
+    text-decoration:underline;
+    font-size: 1.5em;
+}
+.titreLogo{
+    font-family: 'Baskervville', serif;
+    font-size: 2em;
+    margin: 0;
+    color: white;
+}
+
+/*-----Menu Nav-----*/
+
+header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    list-style: none;
+    padding: 21px 0;
+    background-color: #2c333e;
+}
+.containerNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav li ul{
+    display: inline-block;
+    margin: 0 auto;
+}
+.nav li ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+.nav li ul .actif{
+    color: Grey;
+    font-size: 1.2em;
+}
+.nav li ul a:hover{
+    /*color: #ccd6d8;*/
+    color: grey;
+}
+
+/*-----Titre-----*/
+
+.title1{
+    background-image:url(../img/titreBackG.jpg);
+    background-position: bottom;
+    background-size: auto;
+    background-attachment: fixed;
+    
+    padding: 50px 0;
+    text-align: center;
+}
+.title1 h1{
+    font-size: 3em;
+}
+
+.title1 .name{
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    padding-top: 20px;
+    color: #2c333e;
+}
+
+/*-----Information-----*/
+
+.boxInfo{
+    display: flex;
+    justify-content: space-around;
+    background-color: #ecedee;
+    padding-left: 20px;
+}
+.boxInfo a{
+    text-decoration: none;
+    color: black;
+}
+.nameInfo .history{
+    width: 70%;
+    background-color: #ccd6d8;
+    border-radius: 1.2em;
+    padding: 20px;
+}
+.nameInfo .pInfo{
+    font-size: 1.2em;
+}
+.nameInfo .pInfo span{
+    color: #2c333e;
+    font-size: 1.2em;
+}
+
+
+/*-----Formation-----*/
+.format{
+    border-top: 2px  solid black;
+}
+.boxFormat{
+    padding:0 0 20px 20px;
+}
+
+/*-----Compétence-----*/
+.comp{
+    border-bottom: 2px  solid black;
+    border-top: 2px  solid black;
+    padding-bottom: 50px;
+    background-image: url(../img/backGround1.jpg);
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+.comp .boxSkill{
+    display: flex;
+    justify-content: center;
+}
+
+.comp .boxSkill li{
+    padding: 5px 0;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/*-----Expérience-----*/
+
+.experience .boxTable{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tableTitle{
+    font-size: 1.5em;
+    padding:10px 0;
+    border-bottom:2px solid black ;
+    font-family: 'Baskervville', serif;
+    font-size: 20px;
+}
+.tableCell{
+    padding:20px 10px;
+    border-bottom:1px solid black ;
+    text-align: center;
+    font-size: 1.2em;
+}
+.linkXp{
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+.experience .buttunSiteXp{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.experience .clickHere{
+    text-decoration: none;
+    background-color: #ccd6d8;
+    border-radius: 1.5em;
+    color: black;
+    padding: 20px;
+    transition-duration: 1s;
+
+}
+.experience .clickHere:hover{
+    background-color: #2c333e;
+    color: white;    
+}
+
+
+
+/*-----Footer-----*/
+footer{
+    padding: 50px 0 100px 0;
+    background-color: #2c333e;
+    text-align: center;
+}
+.social a{
+    color: #ccd6d8;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+.social a:hover{
+    color: white;
+    transition-duration: 1s;
+}
+
+.social a .fa-facebook-square{
+    margin-right: 30px;
+}
+.social a i{
+    font-size: 5em;
+}
+/*-----Hobby-----*/
+.boxHobby{
+    padding-bottom: 50px;
+}
+.boxHobby iframe{
+    display: block;
+    margin: 0 auto;
+}
+.boxHobby p{
+    padding: 20px 0 40px 0;
+}
+
+/*-----Video-----*/
+.boxVideoA{
+    padding-bottom: 25px;
+}
+.boxVideoA video {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*-----Contact-----*/
+
+.formContact{
+    padding: 25px 0 50px 0;
+}
+
+.formContact .boxName{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+}
+.formContact .boxName label,
+.formContact .boxMail label,
+.formContact .boxText label{
+    display: block;
+    padding: 0 0 5px 10px;
+    font-size: 1.2em;
+}
+.formContact .boxName input,
+.formContact .boxMail input{
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.formContact .boxMailSelect{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25px;
+}
+.formContact .boxMailSelect .boxSelect
+.pselectForm{
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+}
+.formContact .boxMailSelect .boxSelect select{
+    margin: 0 auto;
+    display: block;
+}
+
+.formContact .boxText{
+    text-align: center;
+    padding: 25px;
+}
+
+.formContact .boxText textarea{
+    min-width: 270px;
+    max-width: 270px;
+    min-height: 100px;
+    padding: 15px;
+}
+
+.formContact .boxRadio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContact .buttonForm{
+    text-align: center;
+}
+.formContact .buttonForm button{
+    padding: 10px 20px 10px 20px;
+}
+
+
+
+/*------- Responsive Tablette -------*/
+@media screen and (max-width: 992px){
+
+    /*------- PAGE CV -------*/
+    
+    .containerNav,.container{
+        width: 100%;
+    }
+    .experience .boxTable{
+        display: block;
+    }
+    .experience .boxTable .tablePro .xpPro,
+    .experience .boxTable .tableHobby .hobby{
+        margin: 0 auto;
+    }
+    .experience .boxTable .tablePro .xpPro{
+        margin-bottom: 40px;
+    }
+    .format h2,
+    .format h3,
+    .format p{
+        padding-left: 20px;
+    }
+
+    /*------- PAGE hobby -------*/
+    .boxHobby h3,
+    .boxHobby p{
+        padding-left: 20px;
+    }
+}
+
+/*------- Responsive Smartphones -------*/
+@media screen and (max-width: 768px){
+
+    /*------- PAGE Contact -------*/
+    .formContact .boxName,
+    .formContact .boxMailSelect,
+    .formContact .boxRadio{
+        display: block;
+        text-align: center;
+    }
+    .formContact .boxRadio{
+        margin-bottom: 40px;
+    }
+}
